@@ -18,3 +18,6 @@
 - Custom tables: https://vizro.readthedocs.io/en/stable/pages/user-guides/custom-tables/
 - Custom navigation: https://vizro.readthedocs.io/en/stable/pages/user-guides/navigation/
 - Custom CSS: https://vizro.readthedocs.io/en/stable/pages/user-guides/assets/
+
+### 🖥️ App Demo
+![](./images/MoM_Week13.gif)
