@@ -1,0 +1,32 @@
+#logo {
+  height: 40px;
+  margin-left: -8px;
+}
+
+#card-1.card_text {
+  border-left: 5px solid #00b4ff;
+}
+
+#card-2.card_text {
+  border-left: 5px solid #ff9222;
+}
+
+#card-3.card_text {
+  border-left: 5px solid #ff5267;
+}
+
+#card-4.card_text {
+  border-left: 5px solid #689f38;
+}
+
+#card-5.card_text {
+  border-left: 5px solid #3949ab;
+}
+
+#card-material-flow.card_text {
+   border-left: 5px solid rgba(205, 209, 228, 0.4);
+}
+
+#card-material-flow_outer.card {
+   height: unset;
+}
