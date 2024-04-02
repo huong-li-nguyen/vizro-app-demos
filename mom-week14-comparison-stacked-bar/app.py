@@ -41,7 +41,7 @@ def multi_cat_bar(
                 y=[tmp_df[y2], tmp_df[y]],
                 name=color_cat,
                 orientation="h",
-                text=tmp_df[x],
+                text=tmp_df[x].apply(lambda x: f'{x * 100:.0f}%'),
                 textposition="inside",
                 marker_color=next(colors),
             )
@@ -78,7 +78,7 @@ def multi_cat_faceted_bar(
                 y=[tmp_df[y2], tmp_df[y]],
                 name=color_cat,
                 orientation="h",
-                text=tmp_df[x],
+                text=tmp_df[x].apply(lambda x: f'{x * 100:.0f}%'),
                 textposition="inside",
                 marker_color=next(colors),
             ),
