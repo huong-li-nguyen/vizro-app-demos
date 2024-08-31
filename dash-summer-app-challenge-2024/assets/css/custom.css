@@ -1,0 +1,73 @@
+#logo {
+  padding: 12px 0 8px;
+}
+
+#logo-and-title {
+  gap: 16px;
+}
+
+#dashboard-title {
+  margin-bottom: 0.5rem;
+}
+
+#left-main {
+  width: 300px;
+}
+
+.card-kpi .card-footer {
+  font-size: 1rem;
+}
+
+.card-kpi .card-footer .material-symbols-outlined {
+  font-size: 1.25rem;
+}
+
+.flex-container-regional {
+  background: var(--surfaces-bg-02);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 12px;
+}
+
+.flex-container-regional .card-kpi .material-symbols-outlined {
+  font-size: 1.2rem;
+}
+
+.flex-container-regional .card-kpi .card-footer {
+  font-size: 0.8rem;
+}
+
+.flex-container-regional .card-kpi .card-footer .material-symbols-outlined {
+  font-size: 1rem;
+}
+
+.flex-container-regional .card-kpi,
+.flex-container-regional .card {
+  height: unset;
+  padding: 0.5rem;
+}
+
+.flex-container-regional .card-kpi .card-body {
+  font-size: 2vh;
+  padding: 0.25rem;
+}
+
+.flex-container-regional .card-kpi-title {
+  font-size: 1rem;
+}
+
+.anchor-container {
+  background: var(--main-container-bg-color);
+  border-top: 1px solid var(--border-subtleAlpha01);
+  bottom: 0;
+  display: flex;
+  font-size: 11px;
+  font-weight: 600;
+  gap: 2rem;
+  height: 24px;
+  padding: 2px 12px;
+  place-content: baseline right;
+  position: fixed;
+  right: 0;
+}
