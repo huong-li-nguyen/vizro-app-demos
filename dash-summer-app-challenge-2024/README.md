@@ -57,5 +57,6 @@ A special thanks to the authors mentioned below for supplying the data set. The 
 ## How to run the example locally
 
 1. Install the `requirements.txt` in your environment.
-1. Run the `app.py` file with your environment activated.
-2. You should now be able to access the app locally via http://127.0.0.1:8050/.
+2. Download the data `survey.csv` and `amazon-purchases.csv` from [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGLYDY#) and place it in a folder called `data`.
+3. Run the `app.py` file with your environment activated.
+4. You should now be able to access the app locally via http://127.0.0.1:8050/.

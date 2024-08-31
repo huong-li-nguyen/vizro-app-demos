@@ -13,9 +13,13 @@ from vizro.tables import dash_ag_grid
 
 # TIDY AND CREATE RELEVANT DATA SETS ---------------------
 # Data set below was created by loading original `amazon-purchases.csv` and filtering data on CURRENT_YEAR and LAST_YEAR
-orders = pd.read_csv(f"data/amazon-purchases-{CURRENT_YEAR}-{LAST_YEAR}.csv")
+orders = pd.read_csv(f"data/amazon-purchases.csv")
 survey = pd.read_csv("data/survey.csv")
+
+# Tidy and filter the data set on CURRENT_YEAR and LAST_YEAR
 orders = tidy_orders_data(orders)
+orders = orders[orders["Year"].isin([str(CURRENT_YEAR), str(LAST_YEAR)])]
+
 orders_cy = orders[orders["Year"] == str(CURRENT_YEAR)]
 kpi_overall_df = create_kpi_data(orders)
 kpi_midwest_df = create_kpi_data(orders.query("Region=='Midwest'"))
