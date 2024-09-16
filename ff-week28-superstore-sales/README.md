@@ -5,7 +5,6 @@
 ### 🗓️ FigureFriday
 - FigureFriday - Week 28: https://community.plotly.com/t/figure-friday-2024-week-28/84980
 
-
 ### 🚀 Vizro Features applied
 - Vizro tutorial on pages, layouts and dashboards: https://vizro.readthedocs.io/en/stable/pages/tutorials/explore-components/
 - Custom charts: https://vizro.readthedocs.io/en/stable/pages/user-guides/custom-charts/

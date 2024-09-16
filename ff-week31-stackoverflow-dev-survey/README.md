@@ -3,7 +3,6 @@
 ## 📑 Sources 
 
 ### 🗓️ FigureFriday
-- FigureFriday: https://community.plotly.com/t/announcing-plotly-weekly-data-viz-projects-figure-friday/84953
 - FigureFriday - Week 31: https://community.plotly.com/t/figure-friday-2024-week-31/86264
 - Data Source: https://survey.stackoverflow.co/
 

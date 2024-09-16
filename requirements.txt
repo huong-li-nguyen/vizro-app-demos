@@ -1,2 +1,3 @@
-vizro
+vizro==0.1.23
 openpyxl
+xlrd
