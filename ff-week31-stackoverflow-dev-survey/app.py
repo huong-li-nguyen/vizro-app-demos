@@ -10,6 +10,8 @@ from vizro import Vizro
 from vizro.actions import filter_interaction
 from vizro.models.types import capture
 
+# Download the 2023 data from [the stackoverflow survey](https://survey.stackoverflow.co/) and
+# place it into the `figure-friday-week31` folder
 df = pd.read_csv("survey_results_public.csv")
 df = tidy_df(df)
 
